@@ -2,20 +2,23 @@
 <resources>
 
     <string name="app_name">Ukazovateľ rýchlosti siete</string>
+    <string name="app_description">Zobraziť prenosové štatistiky v stavovom riadku</string>
     <string name="title_activity_settings">Nastavenia</string>
     <string name="pref_show_upload_speed">Zobraziť rýchlosť nahrávania</string>
     <string name="pref_show_download_speed">Zobraziť rýchlosť sťahovania</string>
     <string name="pref_hide_unit">Skryť jednotku</string>
     <string name="pref_force_unit">Vynútiť jednotku</string>
     <string name="pref_hide_inactive">Skryť pri nulovej rýchlosti</string>
-    <string name="pref_hide_networktzpe">Typy sietí</string>
+    <string name="pref_networktype">Typy sietí</string>
     <string name="pref_font_size">Zmeniť veľkosť písma</string>
     <string name="pref_position">Pozícia</string>
     <string name="pref_suffix">Prípona</string>
     <string name="pref_display">Zobrazenie</string>
+    <string name="pref_update_interval">Interval obnovy</string>
+    <string name="pref_color_mode">Farebný režim</string>
     
     <string-array name="unit_entries">
-        <item>Automaticky</item>
+        <item>Automatická</item>
         <item>B/s</item>
         <item>KB/s</item>
         <item>MB/s</item>
@@ -35,12 +38,17 @@
     
     <string-array name="suffix_entries">
         <item>Žiadna</item>
-        <item>Pevný trojuholník</item>
-        <item>Dutý trojuholník</item>
+        <item>Plný trojuholník</item>
+        <item>Prázdny trojuholník</item>
     </string-array>
     
     <string-array name="display_entries">
-         <item>Dva riadky</item>
-         <item>Jeden riadok</item>
+        <item>Dva riadky</item>
+        <item>Jeden riadok</item>
+    </string-array>
+    
+    <string-array name="color_mode_entries">
+        <item>Automatický</item>
+        <item>Ručný</item>
     </string-array>
 </resources>
