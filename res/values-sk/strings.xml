@@ -9,7 +9,7 @@
     <string name="pref_hide_unit">Skryť jednotku</string>
     <string name="pref_force_unit">Vynútiť jednotku</string>
     <string name="pref_hide_inactive">Skryť pri nulovej rýchlosti</string>
-    <string name="pref_networktzpe">Typy sietí</string>
+    <string name="pref_networktype">Typy sietí</string>
     <string name="pref_font_size">Zmeniť veľkosť písma</string>
     <string name="pref_position">Pozícia</string>
     <string name="pref_suffix">Prípona</string>
