@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="empty_array" />
+    <string-array name="unit_entries">
+        <item>Авто</item>
+        <item>B/s</item>
+        <item>KB/s</item>
+        <item>MB/s</item>
+    </string-array>
+    <string-array name="unit_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="networktype_entries">
+        <item>Wi-Fi и Mobile</item>
+        <item>Wi-Fi Только</item>
+        <item>Mobile Только</item>
+    </string-array>
+    <string-array name="networktype_values">
+        <item>Оба</item>
+        <item>Wi-Fi</item>
+        <item>Mobile</item>
+    </string-array>
+    <string-array name="position_entries">
+        <item>Слева</item>
+        <item>Справа</item>
+        <item>Крайний левый угол</item>
+    </string-array>
+    <string-array name="position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="suffix_entries">
+        <item>Нет</item>
+        <item>Сплошной треугольник</item>
+        <item>Полый треугольник</item>
+    </string-array>
+    <string-array name="suffix_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="display_entries">
+        <item>Две Строки</item>
+        <item>Одна Строка</item>
+    </string-array>
+    <string-array name="display_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="color_mode_entries">
+        <item>Авто</item>
+        <item>Выбрать</item>
+    </string-array>
+    <string-array name="color_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="font_style_entries">
+        <item>Жирный</item>
+        <item>Курсив</item>
+    </string-array>
+    <string-array name="font_style_values">
+        <item>Жирный</item>
+        <item>Курсив</item>
+    </string-array>
+</resources>
