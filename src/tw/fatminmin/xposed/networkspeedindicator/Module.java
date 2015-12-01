@@ -108,9 +108,6 @@ public final class Module implements IXposedHookLoadPackage,
     			}
     		});
         }
-        catch(Exception e){
-            Log.e(TAG, "handleLoadPackage failure ignored: ", e);
-        }
         catch(ClassNotFoundError e) {
         	// Clock class not found, ignore
         	Log.w(TAG, "handleLoadPackage failure ignored: ", e);
@@ -118,6 +115,10 @@ public final class Module implements IXposedHookLoadPackage,
         catch(NoSuchMethodError e) {
         	// setAlpha method not found, ignore
         	Log.w(TAG, "handleLoadPackage failure ignored: ", e);
+        }
+        // Catch everything else
+        catch(Exception e){
+            Log.e(TAG, "handleLoadPackage failure ignored: ", e);
         }
     }
     
