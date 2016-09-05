@@ -35,8 +35,8 @@
         <item>Brak</item>
         <item>Trójkąt z wypełnieniem</item>
         <item>Trójkąt bez wypełnienia</item>
-        <item>Small solid triangle</item> <!-- please translate -->
-        <item>Small hollow triangle</item> <!-- please translate -->
+        <item>Mały wypełniony trójkąt</item>
+        <item>Mały trójkąt bez wypełnienia</item>
     </string-array>
     
     <string-array name="display_entries">
